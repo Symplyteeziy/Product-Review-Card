@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(30, 38%, 92%);
+}
+.container{
+    padding-bottom: 12px;
+    width: 450px;
+    padding-top: 30%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont{
+    background: hsl(0, 0%, 100%);
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    
+    display: inline-flex;
+}
+.left-img{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    width: 225px;
+}
+
+.right-con{
+   
+   padding: 22px;
+   padding-bottom: 10px;
+   border-radius: 8px;
+
+}
+p{
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+}
+.per{
+    padding-bottom: 8px;
+}
+h1{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.nam{
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.cart{
+    padding-top: 30px;
+}
+.price{
+    padding-top: 20px;
+    display: inline-flex;
+    align-items: center;
+}
+.actual{
+    font-size: 30px;
+    padding-right: 40px;
+    color: hsl(158, 36%, 37%);
+}
+.discount{
+    text-decoration: line-through;
+}
+.left-img2{
+    display: none;
+}
+button{
+    cursor: pointer;
+    background: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 30px;
+    color: hsl(0, 0%, 100%);
+}
+button:hover{
+    background: hsl(212, 21%, 14%);
+}
+span{
+    padding-left: 10px;
+}
+
+
+@media screen and (max-width:600px) {
+
+    .container {
+        padding-bottom: 12px;
+        width: 300px;
+        padding-top: 10%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nam{
+        font-size: 25px;
+    }
+    .cont{
+        border-radius: 12px;
+        display: inline;
+    }
+    .left-img{
+        display: none;
+    }
+    button{
+        padding-left: 70px;
+    }
+    .left-img2 {
+        display: block;
+        width: 100%;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        }
+    .left-con{
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
+
+
